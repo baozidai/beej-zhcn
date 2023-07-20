@@ -16,7 +16,7 @@ Stream sockets 是可靠的丶双向连接的通讯串流。若你以＂1丶2＂
 
 哪里会用到 stream sockets 呢？
 
-好的，你应该听过 telnet 软件吧，不是吗？它就是用 stream sockets。你所输入的每个字都需要按照你所输入的顺序抵达，有吗？网页浏览器所使用的 HTTP 协议也是用 stream sockets 取得网页。的确，若你以 port 80 telnet 到一个网站，并输入＂GET / HTTP/1.0＂，然後按两下 Enter，它就会输出 HTML 给你！
+好的，你应该听过 telnet 软件吧，不是吗？它就是用 stream sockets。你所输入的每个字都需要按照你所输入的顺序抵达，有吗？网页浏览器所使用的 HTTP 协议也是用 stream sockets 取得网页。的确，若你在 80 端口上 telnet 一个网站，并输入＂GET / HTTP/1.0＂，然後按两下 Enter，它就会输出 HTML 给你！
 
 Stream sockets 是如何达成如此高品质的数据传送呢？
 
